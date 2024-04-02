@@ -8,6 +8,10 @@ struct DetailAlamat { // Mendefinisikan struktur DetailAlamat
 };
 
 struct mahasiswa { // Mendefinisikan struktur mahasiswa
+	string nim; // Mendefinisikan anggota nim berjenis string
+	string nama; // Mendefinisikan anggota nama berjenis string
+	DetailAlamat alamat; // Mendefinisikan anggota alamat berjenis DetailAlamat
+	int umur; // Mendefinisikan anggota umur berjenis int
 };
 
 int main()
