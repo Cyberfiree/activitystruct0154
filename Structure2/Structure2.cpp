@@ -15,4 +15,5 @@ struct Mahasiswa {
 
 int main()
 {
+	Mahasiswa mhs;
 }
