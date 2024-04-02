@@ -7,6 +7,9 @@ struct DetailAlamat { // Mendefinisikan struktur DetailAlamat
 	string kota; // Mendefinisikan anggota kota berjenis string
 };
 
+struct mahasiswa { // Mendefinisikan struktur mahasiswa
+};
+
 int main()
 {
 }
