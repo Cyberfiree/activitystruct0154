@@ -29,4 +29,6 @@ int main()
 	cin >> mhs.alamat.kota;
 	cout << "Umur mahasiswa : ";
 	cin >> mhs.umur;
+
+	cout << endl;
 }
