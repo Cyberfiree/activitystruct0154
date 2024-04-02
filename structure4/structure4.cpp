@@ -40,4 +40,17 @@ int main() // Fungsi utama program
         cin.ignore(1, '\n'); // Membersihkan karakter newline dari buffer input
         cout << endl; // Mencetak baris kosong untuk memisahkan setiap input mahasiswa
     }
+
+    // Menampilkan data untuk setiap mahasiswa
+    for (int i = 0; i < 3; i++) { // Mulai loop untuk setiap objek mahasiswa
+        cout << endl; // Mencetak baris kosong untuk memisahkan setiap data mahasiswa
+        cout << "Data mahasiswa ke-" << (i + 1) << ":" << endl; // Menampilkan pesan untuk data mahasiswa ke-i
+        cout << "\nNim: " << mhs[i].nim; // Menampilkan nomor mahasiswa
+        cout << "\nNama: " << mhs[i].nama; // Menampilkan nama mahasiswa
+        cout << "\nAlamat: "; // Menampilkan pesan untuk alamat
+        cout << "\n\tDesa: " << mhs[i].alamat.desa; // Menampilkan nama desa
+        cout << "\n\tKota: " << mhs[i].alamat.kota; // Menampilkan nama kota
+        cout << "\nUmur: " << mhs[i].umur; // Menampilkan umur 
+        cout << endl;
+    }
 }
