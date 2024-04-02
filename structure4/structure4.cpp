@@ -14,6 +14,7 @@ struct mahasiswa { // Mendefinisikan struktur mahasiswa
 	int umur; // Mendefinisikan anggota umur berjenis int
 };
 
-int main()
+int main() // Fungsi utama program
 {
+	mahasiswa mhs[3]; // Mendeklarasikan array mhs yang berisi 3 objek mahasiswa
 }
